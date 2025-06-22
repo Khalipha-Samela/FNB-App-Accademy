@@ -1,0 +1,145 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #dcd8d4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  background: #e0ddd9;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 10px 10px 30px #bebbb8, -10px -10px 30px #ffffff;
+  text-align: center;
+  width: 90%;
+  max-width: 350px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+#icon {
+  background: #e0ddd9;
+  padding: 10px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 10px #bebbb8, -6px -6px 10px #ffffff;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#icon:hover {
+  transform: scale(1.1);
+}
+
+#icon i {
+  font-size: 18px;
+  color: #333;
+}
+
+#text {
+  margin: 10px 0;
+  font-size: 14px;
+  color: #555;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+input {
+  padding: 12px;
+  border: none;
+  border-radius: 10px;
+  background: #e0ddd9;
+  box-shadow: inset 5px 5px 10px #bebbb8, inset -5px -5px 10px #ffffff;
+  outline: none;
+}
+
+#form-links {
+  text-align: center;
+  font-size: 12px;
+  margin-top: -10px;
+}
+
+#form-links a {
+  text-decoration: none;
+  color: #666;
+  transition: color 0.2s ease-in-out;
+}
+
+#form-links a:hover {
+  color: #000;
+}
+
+button {
+  padding: 12px;
+  border: none;
+  border-radius: 50px;
+  background: #e0ddd9;
+  box-shadow: 5px 5px 10px #bebbb8, -5px -5px 10px #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background: #d5d2ce;
+}
+
+#register-text {
+  margin-top: 20px;
+  font-size: 14px;
+  color: #555;
+}
+
+#register-text a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+#register-text a:hover {
+  color: #000;
+}
+
+.message {
+  margin-top: 15px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+/*Responsive */
+@media (max-width: 400px) {
+  #container {
+    padding: 20px 10px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  input,
+  button {
+    font-size: 14px;
+  }
+}
