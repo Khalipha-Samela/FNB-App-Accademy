@@ -5,20 +5,20 @@ This project is a responsive login form built with HTML, CSS, and JavaScript. It
 
 ___________________________________________________________________________________________________________________________________________
 💡 Features:
-✅ Responsive design (mobile-first)
-🎨 Modern neumorphic UI
-🔐 Username & password input fields
-✅ Inline login validation with feedback
-🎯 Smooth hover and focus effects
-📱 Mobile-ready layout using media queries
-🔄 Social media icon placeholders (Font Awesome)
+1. ✅ Responsive design (mobile-first)
+2. 🎨 Modern neumorphic UI
+3. 🔐 Username & password input fields
+4. ✅ Inline login validation with feedback
+5. 🎯 Smooth hover and focus effects
+6. 📱 Mobile-ready layout using media queries
+7. 🔄 Social media icon placeholders (Font Awesome)
 
 ___________________________________________________________________________________________________________________________________________
 📂 Technologies Used:
-HTML
-CSS
-JavaScript
-Font Awesome (CDN)
+1. HTML
+2. CSS
+3. JavaScript
+4. Font Awesome (CDN)
 
 ___________________________________________________________________________________________________________________________________________
 🚀 Getting Started:
