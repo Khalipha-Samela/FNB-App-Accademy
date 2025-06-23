@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <nav>
+        <div class="logo">MARVEL</div>
+        <div class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about-us.html">About Us</a>
+          <a href="contact-us.html">Contact</a>
+        </div>
+      </nav>
+
+      <main class="contact-section">
+        <h2 class="section-title">CONTACT THE AVENGERS</h2>
+
+        <div class="contact-container">
+          <div class="contact-info">
+            <div class="contact-card">
+              <h3><i class="fas fa-phone-alt"></i> PHONE</h3>
+              <p>031 555 2222</p>
+            </div>
+
+            <div class="contact-card">
+              <h3><i class="fas fa-envelope"></i> EMAIL</h3>
+              <p>appdeveloper@awesome.com</p>
+            </div>
+
+            <div class="contact-card">
+              <h3><i class="fas fa-globe"></i> WEBSITE</h3>
+              <p>www.awesomeness.com</p>
+            </div>
+          </div>
+
+          <form class="contact-form">
+            <div class="form-group">
+              <label for="name">YOUR NAME</label>
+              <input type="text" id="name" name="name" required />
+            </div>
+
+            <div class="form-group">
+              <label for="email">YOUR EMAIL</label>
+              <input type="email" id="email" name="email" required />
+            </div>
+
+            <div class="form-group">
+              <label for="subject">SUBJECT</label>
+              <input type="text" id="subject" name="subject" required />
+            </div>
+
+            <div class="form-group">
+              <label for="message">YOUR MESSAGE</label>
+              <textarea
+                id="message"
+                name="message"
+                rows="5"
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">SEND MESSAGE</button>
+          </form>
+        </div>
+      </main>
+    </div>
+  </body>
+</html>
