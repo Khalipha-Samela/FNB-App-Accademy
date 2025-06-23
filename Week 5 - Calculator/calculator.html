@@ -3,37 +3,37 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Calculator</title>
+    <title>Responsive Calculator</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div class="container">
       <div class="calculator">
-        <input type="text" class="value" readonly />
+        <input type="text" id="inputBox" class="value" readonly />
 
-        <button class="num clear" data-button="C"><i>C</i></button>
-        <button class="num" data-button="CE"><i>CE</i></button>
-        <button class="num" data-button="/"><i>/</i></button>
-        <button class="num" data-button="*"><i>*</i></button>
+        <button class="num clear" onclick="acBtnPressed()"><i>C</i></button>
+        <button class="num" onclick="clearEntry()"><i>CE</i></button>
+        <button class="num" onclick="operatorBtnPressed('/')"><i>/</i></button>
+        <button class="num" onclick="operatorBtnPressed('*')"><i>*</i></button>
 
-        <button class="num" data-button="7"><i>7</i></button>
-        <button class="num" data-button="8"><i>8</i></button>
-        <button class="num" data-button="9"><i>9</i></button>
-        <button class="num" data-button="-"><i>-</i></button>
+        <button class="num" onclick="digitBtnPressed('7')"><i>7</i></button>
+        <button class="num" onclick="digitBtnPressed('8')"><i>8</i></button>
+        <button class="num" onclick="digitBtnPressed('9')"><i>9</i></button>
+        <button class="num" onclick="operatorBtnPressed('-')"><i>-</i></button>
 
-        <button class="num" data-button="4"><i>4</i></button>
-        <button class="num" data-button="5"><i>5</i></button>
-        <button class="num" data-button="6"><i>6</i></button>
-        <button class="num" data-button="+"><i>+</i></button>
+        <button class="num" onclick="digitBtnPressed('4')"><i>4</i></button>
+        <button class="num" onclick="digitBtnPressed('5')"><i>5</i></button>
+        <button class="num" onclick="digitBtnPressed('6')"><i>6</i></button>
+        <button class="num" onclick="operatorBtnPressed('+')"><i>+</i></button>
 
-        <button class="num" data-button="1"><i>1</i></button>
-        <button class="num" data-button="2"><i>2</i></button>
-        <button class="num" data-button="3"><i>3</i></button>
-        <button class="num equal" data-button="="><i>=</i></button>
+        <button class="num" onclick="digitBtnPressed('1')"><i>1</i></button>
+        <button class="num" onclick="digitBtnPressed('2')"><i>2</i></button>
+        <button class="num" onclick="digitBtnPressed('3')"><i>3</i></button>
+        <button class="num equal" onclick="equalsBtnPressed()"><i>=</i></button>
 
-        <button class="num" data-button="0"><i>0</i></button>
-        <button class="num" data-button="00"><i>00</i></button>
-        <button class="num" data-button="."><i>.</i></button>
+        <button class="num" onclick="digitBtnPressed('0')"><i>0</i></button>
+        <button class="num" onclick="digitBtnPressed('00')"><i>00</i></button>
+        <button class="num" onclick="digitBtnPressed('.')"><i>.</i></button>
       </div>
     </div>
 
